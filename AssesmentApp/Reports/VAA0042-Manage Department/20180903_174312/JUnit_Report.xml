@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VAA0042-Manage Department" time="10" tests="1" failures="1" errors="0">
+   <testsuite name="VAA0042-Manage Department" tests="1" failures="1" errors="0" time="10" timestamp="2018-09-03 17:43:13" hostname="Manoj-D - Manoj-D.vofox.com" id="Test Suites/VAA0042-Manage Department">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180903_174312"/>
+         <property name="logFiles" value="E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180903_174312\\execution0.log"/>
+         <property name="attachments" value="E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180903_174312\\1535976803733.png"/>
+         <property name="hostName" value="Manoj-D - Manoj-D.vofox.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.10.121"/>
+         <property name="sessionId" value="97b5e360-2c1d-41e7-ba54-b835d81a8bdc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Manage Department/TCA094001" classname="Test Cases/Manage Department/TCA094001" status="PASSED">
+         <system-out><![CDATA[2018-09-03 17:43:14 - [TEST_CASE][PASSED] - Test Cases/Manage Department/TCA094001: Test Cases/Manage Department/TCA094001
+
+2018-09-03 17:43:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-03 17:43:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-03 17:43:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-03 17:43:19 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-03 17:43:19 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-03 17:43:20 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_1'
+
+2018-09-03 17:43:20 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-03 17:43:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-03 17:43:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-03 17:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-03 17:43:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_SuperAdmin' are matched.
+
+2018-09-03 17:43:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_SuperAdmin' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Department/TCA094002" classname="Test Cases/Manage Department/TCA094002" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_/input_btnAddNewDepartment' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;input id=&quot;btnAddNewDepartment&quot; class=&quot;button4&quot; type=&quot;button&quot;> is not clickable at point (377.8833312988281,678) because another element &lt;div class=&quot;ui-widget-overlay&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MANOJ-D', ip: '192.168.10.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3460, moz:profile: C:\Users\Manoj-D\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97b5e360-2c1d-41e7-ba54-b835d81a8bdc)"/>
+         <system-out><![CDATA[2018-09-03 17:43:22 - [TEST_CASE][FAILED] - Test Cases/Manage Department/TCA094002: Test Cases/Manage Department/TCA094002 FAILED because (of) Unable to click on object 'Object Repository/Page_/input_btnAddNewDepartment' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <input id="btnAddNewDepartment" class="button4" type="button"> is not clickable at point (377.8833312988281,678) because another element <div class="ui-widget-overlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MANOJ-D', ip: '192.168.10.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3460, moz:profile: C:\Users\Manoj-D\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97b5e360-2c1d-41e7-ba54-b835d81a8bdc)
+
+2018-09-03 17:43:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_ Manage Department' is clicked on
+
+2018-09-03 17:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_ Manage Department' is clicked on
+
+2018-09-03 17:43:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/td_Manage Department' are matched.
+
+2018-09-03 17:43:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/td_Manage Department' are matched.
+
+2018-09-03 17:43:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/th_Department' are matched.
+
+2018-09-03 17:43:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/th_Department' are matched.
+
+2018-09-03 17:43:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/th_Description' are matched.
+
+2018-09-03 17:43:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/th_Description' are matched.
+
+2018-09-03 17:43:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/a_Edit' are matched.
+
+2018-09-03 17:43:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/a_Edit' are matched.
+
+2018-09-03 17:43:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/a_Delete' are matched.
+
+2018-09-03 17:43:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/a_Delete' are matched.
+
+2018-09-03 17:43:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_btnAddNewDepartment' is clicked on
+
+2018-09-03 17:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_btnAddNewDepartment' is clicked on
+
+2018-09-03 17:43:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_Add New Department' are matched.
+
+2018-09-03 17:43:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_Add New Department' are matched.
+
+2018-09-03 17:43:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/td_Department' are matched.
+
+2018-09-03 17:43:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/td_Department' are matched.
+
+2018-09-03 17:43:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/th_Description' are matched.
+
+2018-09-03 17:43:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/th_Description' are matched.
+
+2018-09-03 17:43:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_/input_btnAddNewDepartment' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <input id="btnAddNewDepartment" class="button4" type="button"> is not clickable at point (377.8833312988281,678) because another element <div class="ui-widget-overlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MANOJ-D', ip: '192.168.10.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3460, moz:profile: C:\Users\Manoj-D\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97b5e360-2c1d-41e7-ba54-b835d81a8bdc)
+
+2018-09-03 17:43:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_/input_btnAddNewDepartment' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <input id="btnAddNewDepartment" class="button4" type="button"> is not clickable at point (377.8833312988281,678) because another element <div class="ui-widget-overlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MANOJ-D', ip: '192.168.10.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3460, moz:profile: C:\Users\Manoj-D\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97b5e360-2c1d-41e7-ba54-b835d81a8bdc)
+[[ATTACHMENT|E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180903_174312\\1535976803733.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-03 17:43:22 - [TEST_CASE][FAILED] - Test Cases/Manage Department/TCA094002: Test Cases/Manage Department/TCA094002 FAILED because (of) Unable to click on object 'Object Repository/Page_/input_btnAddNewDepartment' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <input id="btnAddNewDepartment" class="button4" type="button"> is not clickable at point (377.8833312988281,678) because another element <div class="ui-widget-overlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MANOJ-D', ip: '192.168.10.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3460, moz:profile: C:\Users\Manoj-D\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97b5e360-2c1d-41e7-ba54-b835d81a8bdc)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-03 17:43:13 - [TEST_SUITE][FAILED] - VAA0042-Manage Department: Test Cases/Manage Department/TCA094002 FAILED because (of) Unable to click on object 'Object Repository/Page_/input_btnAddNewDepartment' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <input id="btnAddNewDepartment" class="button4" type="button"> is not clickable at point (377.8833312988281,678) because another element <div class="ui-widget-overlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MANOJ-D', ip: '192.168.10.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3460, moz:profile: C:\Users\Manoj-D\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97b5e360-2c1d-41e7-ba54-b835d81a8bdc)]]></system-out>
+      <system-err><![CDATA[2018-09-03 17:43:13 - [TEST_SUITE][FAILED] - VAA0042-Manage Department: Test Cases/Manage Department/TCA094002 FAILED because (of) Unable to click on object 'Object Repository/Page_/input_btnAddNewDepartment' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <input id="btnAddNewDepartment" class="button4" type="button"> is not clickable at point (377.8833312988281,678) because another element <div class="ui-widget-overlay"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MANOJ-D', ip: '192.168.10.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3460, moz:profile: C:\Users\Manoj-D\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97b5e360-2c1d-41e7-ba54-b835d81a8bdc)]]></system-err>
+   </testsuite>
+</testsuites>

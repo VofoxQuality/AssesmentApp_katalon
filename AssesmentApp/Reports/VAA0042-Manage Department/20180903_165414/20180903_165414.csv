@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VAA0042-Manage Department,Firefox 59.0,,2018-09-03 16:54:16,2018-09-03 16:54:26,10.527s,ERROR
+,,,,,,
+Test Cases/Manage Department/TCA094001,Firefox 59.0,,2018-09-03 16:54:16,2018-09-03 16:54:25,8.522s,PASSED
+openBrowser,Firefox 59.0,,2018-09-03 16:54:17,2018-09-03 16:54:22,5.519s,PASSED
+navigateToUrl,Firefox 59.0,,2018-09-03 16:54:22,2018-09-03 16:54:23,0.585s,PASSED
+setText,Firefox 59.0,,2018-09-03 16:54:23,2018-09-03 16:54:23,0.137s,PASSED
+setEncryptedText,Firefox 59.0,,2018-09-03 16:54:23,2018-09-03 16:54:23,0.647s,PASSED
+click,Firefox 59.0,,2018-09-03 16:54:23,2018-09-03 16:54:25,1.282s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-03 16:54:25,2018-09-03 16:54:25,0.056s,PASSED
+,,,,,,
+Test Cases/Manage Department/TCA094002,Firefox 59.0,,2018-09-03 16:54:25,2018-09-03 16:54:26,1.281s,ERROR
+click,Firefox 59.0,,2018-09-03 16:54:25,2018-09-03 16:54:25,0.356s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-03 16:54:25,2018-09-03 16:54:25,0.057s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-03 16:54:25,2018-09-03 16:54:25,0.033s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-03 16:54:25,2018-09-03 16:54:25,0.038s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-03 16:54:25,2018-09-03 16:54:25,0.036s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-03 16:54:25,2018-09-03 16:54:25,0.031s,PASSED
+verifyElementVisible,Firefox 59.0,,2018-09-03 16:54:25,2018-09-03 16:54:26,0.114s,PASSED
+verifyElementVisible,Firefox 59.0,,2018-09-03 16:54:26,2018-09-03 16:54:26,0.086s,PASSED
+click,Firefox 59.0,,2018-09-03 16:54:26,2018-09-03 16:54:26,0.359s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-03 16:54:26,2018-09-03 16:54:26,0.009s,PASSED
