@@ -28,7 +28,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180903_181759\\execution.properties")
+RunConfiguration.setExecutionSettingFile("E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180904_102405\\execution.properties")
 
 TestCaseMain.beforeStart()
 

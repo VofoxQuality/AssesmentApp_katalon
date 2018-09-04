@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Close</name>
+   <name>span_Successfully Updated</name>
    <tag></tag>
-   <elementGuidId>f8d73d11-ad0a-4e35-b3f2-239550d2af92</elementGuidId>
+   <elementGuidId>cb6e70fc-e77f-4590-b946-59dbefcdd374</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,24 +14,24 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>ui-button-text</value>
+      <value>lblReturnMessage</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Close</value>
+      <value>Successfully Updated</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable&quot;]/div[@class=&quot;ui-dialog-buttonpane ui-widget-content ui-helper-clearfix&quot;]/div[@class=&quot;ui-dialog-buttonset&quot;]/button[@class=&quot;ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-hover ui-state-active ui-state-focus&quot;]/span[@class=&quot;ui-button-text&quot;]</value>
+      <value>id(&quot;lblReturnMessage&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

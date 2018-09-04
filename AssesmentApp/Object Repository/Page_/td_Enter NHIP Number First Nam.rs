@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ctl00ContentPlaceHolder1_1</name>
+   <name>td_Enter NHIP Number First Nam</name>
    <tag></tag>
-   <elementGuidId>e1a4e030-86df-49c2-9b5a-a1120bcf4f81</elementGuidId>
+   <elementGuidId>9bc0a945-4f12-447c-a5df-542da07bb842</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,48 +11,36 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>ctl00$ContentPlaceHolder1$txtPassword</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>align</name>
       <type>Main</type>
-      <value>15</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ctl00_ContentPlaceHolder1_txtPassword</value>
+      <value>left</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>valign</name>
       <type>Main</type>
-      <value>logintextbox</value>
+      <value>middle</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                    Enter NHIP Number/ First Name/ Last Name
+                                                </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ctl00_ContentPlaceHolder1_txtPassword&quot;)</value>
+      <value>id(&quot;ctl00_adminContentPlaceHolder_TxtKeywordRow&quot;)/td[1]</value>
    </webElementProperties>
 </WebElementEntity>

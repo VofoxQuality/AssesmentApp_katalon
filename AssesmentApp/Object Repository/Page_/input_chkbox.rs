@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ctl00adminContentPlaceHo</name>
+   <name>input_chkbox</name>
    <tag></tag>
-   <elementGuidId>7c24487f-46c0-4d26-8a30-2de1aca730cd</elementGuidId>
+   <elementGuidId>27592324-ef1a-4f73-8018-db316a3569ad</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -16,50 +16,29 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>ctl00$adminContentPlaceHolder$TxtKeyword</value>
+      <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>text</value>
+      <value>chkbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>35</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ctl00_adminContentPlaceHolder_TxtKeyword</value>
+      <value>checkboxclick()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ctl00_adminContentPlaceHolder_TxtKeyword&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Cancel</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>button2</value>
+      <value>id(&quot;myTbody&quot;)/tr[2]/td[1]/input[1]</value>
    </webElementProperties>
 </WebElementEntity>

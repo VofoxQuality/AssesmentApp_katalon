@@ -25,9 +25,7 @@ WebUI.navigateToUrl('http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx')
 
 WebUI.setText(findTestObject('Page_Admin Login/input_ctl00ContentPlaceHolder1'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Page_Admin Login/input_ctl00ContentPlaceHolder1_2'), 'SFTQUhjBfIY=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'), 'SFTQUhjBfIY=')
 
 WebUI.click(findTestObject('Page_Admin Login/input_ctl00ContentPlaceHolderBTN'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_/span_SuperAdmin'), 'SuperAdmin')
 

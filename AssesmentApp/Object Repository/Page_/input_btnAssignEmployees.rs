@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ctl00adminContentPlaceHo</name>
+   <name>input_btnAssignEmployees</name>
    <tag></tag>
-   <elementGuidId>7c24487f-46c0-4d26-8a30-2de1aca730cd</elementGuidId>
+   <elementGuidId>7e5779d9-4572-4641-abcc-942f36da515a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -16,50 +16,36 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>ctl00$adminContentPlaceHolder$TxtKeyword</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>35</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ctl00_adminContentPlaceHolder_TxtKeyword</value>
+      <value>btnAssignEmployees</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>id(&quot;ctl00_adminContentPlaceHolder_TxtKeyword&quot;)</value>
+      <value>Showpopup('2015');</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Cancel</value>
+      <value>Assign/Unassign departments</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>button2</value>
+      <value>id(&quot;btnAssignEmployees&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

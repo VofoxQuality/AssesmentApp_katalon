@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCA094003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a21ea47f-09f6-4b72-9345-1fab217e487c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c4df1bdf-d6a7-4c87-a7c6-35854274e784</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

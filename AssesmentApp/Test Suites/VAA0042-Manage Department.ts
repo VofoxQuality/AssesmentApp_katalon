@@ -4,7 +4,7 @@
    <name>VAA0042-Manage Department</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-03T18:21:51</lastRun>
+   <lastRun>2018-09-04T14:19:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -22,5 +22,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Manage Department/TCA094002</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3036b32b-9340-4117-8983-c803ee0a2a28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Manage Department/TCA094003</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4df1bdf-d6a7-4c87-a7c6-35854274e784</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

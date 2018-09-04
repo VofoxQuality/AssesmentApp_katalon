@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Close</name>
+   <name>td_Manage Employees Department</name>
    <tag></tag>
-   <elementGuidId>f8d73d11-ad0a-4e35-b3f2-239550d2af92</elementGuidId>
+   <elementGuidId>be8dac02-8494-4892-91a8-77c82eee1690</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,27 +11,29 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-button-text</value>
+      <value>whiteheading</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Close</value>
+      <value>
+                                        Manage Employees Department
+                                    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable&quot;]/div[@class=&quot;ui-dialog-buttonpane ui-widget-content ui-helper-clearfix&quot;]/div[@class=&quot;ui-dialog-buttonset&quot;]/button[@class=&quot;ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-hover ui-state-active ui-state-focus&quot;]/span[@class=&quot;ui-button-text&quot;]</value>
+      <value>id(&quot;tdHead&quot;)/table[@class=&quot;maintable&quot;]/tbody[1]/tr[1]/td[3]/table[1]/tbody[1]/tr[3]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;whiteheading&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

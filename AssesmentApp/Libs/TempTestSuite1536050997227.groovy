@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180903_174312\\execution.properties")
+RunConfiguration.setExecutionSettingFile("E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180904_141957\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/VAA0042-Manage Department', suiteProperties, [new TestCaseBinding('Test Cases/Manage Department/TCA094001', 'Test Cases/Manage Department/TCA094001',  null), new TestCaseBinding('Test Cases/Manage Department/TCA094002', 'Test Cases/Manage Department/TCA094002',  null)])
+TestCaseMain.startTestSuite('Test Suites/VAA0042-Manage Department', suiteProperties, [new TestCaseBinding('Test Cases/Manage Department/TCA094001', 'Test Cases/Manage Department/TCA094001',  null), new TestCaseBinding('Test Cases/Manage Department/TCA094002', 'Test Cases/Manage Department/TCA094002',  null), new TestCaseBinding('Test Cases/Manage Department/TCA094003', 'Test Cases/Manage Department/TCA094003',  null)])
