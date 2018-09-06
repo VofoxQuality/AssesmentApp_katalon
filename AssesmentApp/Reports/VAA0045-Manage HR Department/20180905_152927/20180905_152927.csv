@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VAA0045-Manage HR Department,Firefox 59.0,,2018-09-05 15:29:29,2018-09-05 15:29:42,13.336s,PASSED
+,,,,,,
+Test Cases/Manage HR Department/TCA097001,Firefox 59.0,,2018-09-05 15:29:29,2018-09-05 15:29:38,8.542s,PASSED
+openBrowser,Firefox 59.0,,2018-09-05 15:29:29,2018-09-05 15:29:35,5.980s,PASSED
+navigateToUrl,Firefox 59.0,,2018-09-05 15:29:35,2018-09-05 15:29:36,0.263s,PASSED
+setText,Firefox 59.0,,2018-09-05 15:29:36,2018-09-05 15:29:36,0.119s,PASSED
+setEncryptedText,Firefox 59.0,,2018-09-05 15:29:36,2018-09-05 15:29:36,0.623s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:36,2018-09-05 15:29:38,1.259s,PASSED
+,,,,,,
+Test Cases/Manage HR Department/TCA097002,Firefox 59.0,,2018-09-05 15:29:38,2018-09-05 15:29:41,3.634s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:38,2018-09-05 15:29:38,0.388s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-05 15:29:38,2018-09-05 15:29:38,0.056s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-05 15:29:38,2018-09-05 15:29:38,0.033s,PASSED
+verifyElementClickable,Firefox 59.0,,2018-09-05 15:29:38,2018-09-05 15:29:38,0.049s,PASSED
+setText,Firefox 59.0,,2018-09-05 15:29:38,2018-09-05 15:29:38,0.058s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:38,2018-09-05 15:29:39,0.237s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-05 15:29:39,2018-09-05 15:29:39,0.040s,PASSED
+setText,Firefox 59.0,,2018-09-05 15:29:39,2018-09-05 15:29:39,0.058s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:39,2018-09-05 15:29:39,0.356s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:39,2018-09-05 15:29:39,0.252s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:39,2018-09-05 15:29:40,0.232s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:40,2018-09-05 15:29:40,0.242s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:40,2018-09-05 15:29:40,0.249s,PASSED
+setText,Firefox 59.0,,2018-09-05 15:29:40,2018-09-05 15:29:40,0.058s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:40,2018-09-05 15:29:41,0.453s,PASSED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_/span_demoHR test)),Firefox 59.0,,2018-09-05 15:29:41,2018-09-05 15:29:41,0.061s,PASSED
+"Statement - If (!(text.contains(""test"")))",Firefox 59.0,,2018-09-05 15:29:41,2018-09-05 15:29:41,0.001s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:41,2018-09-05 15:29:41,0.298s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-05 15:29:41,2018-09-05 15:29:41,0.034s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:41,2018-09-05 15:29:41,0.260s,PASSED
+,,,,,,
+Test Cases/Manage HR Department/TCA097003,Firefox 59.0,,2018-09-05 15:29:41,2018-09-05 15:29:42,0.313s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:41,2018-09-05 15:29:41,0.146s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-05 15:29:41,2018-09-05 15:29:42,0.042s,PASSED

@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Department</name>
+   <name>td_Assigned HR</name>
    <tag></tag>
-   <elementGuidId>c93f91ac-878c-4602-8648-3004b9ec7057</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//td[(text() = '
-                        Department
-                    ' or . = '
-                        Department
-                    ')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//tbody[@id='departmentsList']//td[contains(text(),'Department')]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>0b3dd712-4166-4984-aca9-bd5f7f47e307</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,15 +18,13 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                        Department
-                    </value>
+      <value>Assigned HR</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;first&quot;)/table[1]/tbody[1]/tr[1]/td[1]</value>
+      <value>id(&quot;departmentsList&quot;)/tr[1]/td[2]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VAA0045-Manage HR Department,Firefox 59.0,,2018-09-05 15:28:55,2018-09-05 15:29:08,12.886s,INCOMPLETE
+,,,,,,
+Test Cases/Manage HR Department/TCA097001,Firefox 59.0,,2018-09-05 15:28:55,2018-09-05 15:29:03,7.368s,PASSED
+openBrowser,Firefox 59.0,,2018-09-05 15:28:56,2018-09-05 15:29:02,5.814s,PASSED
+navigateToUrl,Firefox 59.0,,2018-09-05 15:29:02,2018-09-05 15:29:02,0.482s,PASSED
+setText,Firefox 59.0,,2018-09-05 15:29:02,2018-09-05 15:29:02,0.154s,PASSED
+setEncryptedText,Firefox 59.0,,2018-09-05 15:29:02,2018-09-05 15:29:03,0.279s,PASSED
+click,Firefox 59.0,,2018-09-05 15:29:03,2018-09-05 15:29:03,0.268s,PASSED
+,,,,,,
+Test Cases/Manage HR Department/TCA097002,Firefox 59.0,,2018-09-05 15:29:03,2018-09-05 15:29:08,4.976s,FAILED
+click,Firefox 59.0,,2018-09-05 15:29:03,2018-09-05 15:29:08,4.768s,FAILED
+,,,,,,
+Test Cases/Manage HR Department/TCA097003,Firefox 59.0,,2018-09-05 15:29:08,2018-09-05 15:29:08,0.126s,FAILED
+click,Firefox 59.0,,2018-09-05 15:29:08,2018-09-05 15:29:08,0.016s,FAILED

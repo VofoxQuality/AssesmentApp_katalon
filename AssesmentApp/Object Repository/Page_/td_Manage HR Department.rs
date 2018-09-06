@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Department</name>
+   <name>td_Manage HR Department</name>
    <tag></tag>
-   <elementGuidId>c93f91ac-878c-4602-8648-3004b9ec7057</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//td[(text() = '
-                        Department
-                    ' or . = '
-                        Department
-                    ')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//tbody[@id='departmentsList']//td[contains(text(),'Department')]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>2146a2ac-b332-46d6-b927-1d7dd3aed1c0</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,19 +14,26 @@
       <value>td</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>whiteheading</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
-                        Department
-                    </value>
+                            Manage HR Department
+                        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;first&quot;)/table[1]/tbody[1]/tr[1]/td[1]</value>
+      <value>id(&quot;tdHead&quot;)/table[@class=&quot;maintable&quot;]/tbody[1]/tr[1]/td[3]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;whiteheading&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
