@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Firefox 59.0,,2018-09-07 12:33:58,2018-09-07 12:34:11,13.191s,PASSED
+,,,,,,
+Test Cases/Admin_Login/TCA091008,Firefox 59.0,,2018-09-07 12:33:59,2018-09-07 12:34:11,12.610s,PASSED
+openBrowser,Firefox 59.0,,2018-09-07 12:33:59,2018-09-07 12:34:07,7.776s,PASSED
+navigateToUrl,Firefox 59.0,,2018-09-07 12:34:07,2018-09-07 12:34:07,0.463s,PASSED
+setText,Firefox 59.0,,2018-09-07 12:34:07,2018-09-07 12:34:07,0.162s,PASSED
+setEncryptedText,Firefox 59.0,,2018-09-07 12:34:07,2018-09-07 12:34:09,1.458s,PASSED
+click,Firefox 59.0,,2018-09-07 12:34:09,2018-09-07 12:34:11,1.645s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-07 12:34:11,2018-09-07 12:34:11,0.062s,PASSED
+click,Firefox 59.0,,2018-09-07 12:34:11,2018-09-07 12:34:11,0.255s,PASSED
+verifyElementText,Firefox 59.0,,2018-09-07 12:34:11,2018-09-07 12:34:11,0.071s,PASSED
+closeBrowser,Firefox 59.0,,2018-09-07 12:34:11,2018-09-07 12:34:11,0.300s,PASSED

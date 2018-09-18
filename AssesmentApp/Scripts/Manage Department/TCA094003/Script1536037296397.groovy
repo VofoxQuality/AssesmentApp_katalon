@@ -27,9 +27,9 @@ WebUI.click(findTestObject('Page_/a_Edit'))
 
 WebUI.verifyElementText(findTestObject('Page_/span_Edit Department'), 'Edit Department')
 
-WebUI.verifyElementText(findTestObject('Page_/td_Department'), 'Department')
+//WebUI.verifyElementText(findTestObject('Page_/td_Department'), 'Department')
 
-WebUI.verifyElementText(findTestObject('Page_/th_Description'), 'Description')
+//WebUI.verifyElementText(findTestObject('Page_/th_Description'), 'Description')
 
 WebUI.setText(findTestObject('Page_/input_ctl00adminContentPlaceHo_dept'), '')
 
@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Page_/input_ButtonSubmit'))
 //WebUI.verifyElementText(findTestObject('Page_/span_Insertion Failed.Departme'), 'Insertion Failed.Department Already Exist')
 WebUI.click(findTestObject('Page_/span_Close'))
 
-WebUI.delay(1)
+//WebUI.delay(1)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_Manage Department'), 'Manage Department')
 

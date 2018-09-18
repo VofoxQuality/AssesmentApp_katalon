@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VAA0040-Admin_login" time="61" tests="8" failures="0" errors="0">
+   <testsuite name="VAA0040-Admin_login" tests="8" failures="0" errors="0" time="61" timestamp="2018-09-07 13:22:18" hostname="Manoj-D - Manoj-D.vofox.com" id="Test Suites/VAA0040-Admin_login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0040-Admin_login\\20180907_132216"/>
+         <property name="logFiles" value="E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0040-Admin_login\\20180907_132216\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Manoj-D - Manoj-D.vofox.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.10.121"/>
+         <property name="sessionId" value="cdc6138f-0221-4d6b-bd28-865f4c0b01dc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin_Login/TCA091001" classname="Test Cases/Admin_Login/TCA091001" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:22:19 - [TEST_CASE][PASSED] - Test Cases/Admin_Login/TCA091001: Test Cases/Admin_Login/TCA091001
+
+2018-09-07 13:22:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 13:22:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 13:22:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:22:27 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:22:27 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:22:27 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:22:27 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:22:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:22:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:22:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-07 13:22:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin_Login/TCA091002" classname="Test Cases/Admin_Login/TCA091002" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:22:29 - [TEST_CASE][PASSED] - Test Cases/Admin_Login/TCA091002: Test Cases/Admin_Login/TCA091002
+
+2018-09-07 13:22:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 13:22:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 13:22:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:22:35 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:22:35 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:22:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:22:35 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:22:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:22:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:22:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:22:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Username' are matched.
+
+2018-09-07 13:22:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Username' are matched.
+
+2018-09-07 13:22:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Password' are matched.
+
+2018-09-07 13:22:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Password' are matched.
+
+2018-09-07 13:22:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-07 13:22:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin_Login/TCA091003" classname="Test Cases/Admin_Login/TCA091003" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:22:36 - [TEST_CASE][PASSED] - Test Cases/Admin_Login/TCA091003: Test Cases/Admin_Login/TCA091003
+
+2018-09-07 13:22:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 13:22:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 13:22:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:22:41 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:22:41 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:22:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:22:41 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:22:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:22:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:22:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Username' are matched.
+
+2018-09-07 13:22:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Username' are matched.
+
+2018-09-07 13:22:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Password' are matched.
+
+2018-09-07 13:22:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Password' are matched.
+
+2018-09-07 13:22:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-07 13:22:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin_Login/TCA091004" classname="Test Cases/Admin_Login/TCA091004" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:22:42 - [TEST_CASE][PASSED] - Test Cases/Admin_Login/TCA091004: Test Cases/Admin_Login/TCA091004
+
+2018-09-07 13:22:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 13:22:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 13:22:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:22:47 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:22:47 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:22:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:22:47 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:22:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:22:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:22:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Username' are matched.
+
+2018-09-07 13:22:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Username' are matched.
+
+2018-09-07 13:22:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Password' are matched.
+
+2018-09-07 13:22:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Password' are matched.
+
+2018-09-07 13:22:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-07 13:22:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin_Login/TCA091005" classname="Test Cases/Admin_Login/TCA091005" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:22:48 - [TEST_CASE][PASSED] - Test Cases/Admin_Login/TCA091005: Test Cases/Admin_Login/TCA091005
+
+2018-09-07 13:22:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 13:22:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 13:22:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:22:53 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:22:53 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:22:53 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:22:53 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:22:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:22:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:22:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Username' are matched.
+
+2018-09-07 13:22:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Username' are matched.
+
+2018-09-07 13:22:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Password' are matched.
+
+2018-09-07 13:22:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Password' are matched.
+
+2018-09-07 13:22:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-07 13:22:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin_Login/TCA091006" classname="Test Cases/Admin_Login/TCA091006" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:22:54 - [TEST_CASE][PASSED] - Test Cases/Admin_Login/TCA091006: Test Cases/Admin_Login/TCA091006
+
+2018-09-07 13:22:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 13:22:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 13:22:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:23:00 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:23:00 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:23:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:23:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:23:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:23:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:23:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Username' are matched.
+
+2018-09-07 13:23:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Username' are matched.
+
+2018-09-07 13:23:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Password' are matched.
+
+2018-09-07 13:23:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/span_Enter Password' are matched.
+
+2018-09-07 13:23:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-07 13:23:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin_Login/TCA091007" classname="Test Cases/Admin_Login/TCA091007" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:23:00 - [TEST_CASE][PASSED] - Test Cases/Admin_Login/TCA091007: Test Cases/Admin_Login/TCA091007
+
+2018-09-07 13:23:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 13:23:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 13:23:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:23:06 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:23:06 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:23:06 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:23:06 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:23:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:23:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:23:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_SuperAdmin' are matched.
+
+2018-09-07 13:23:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_SuperAdmin' are matched.
+
+2018-09-07 13:23:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-07 13:23:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin_Login/TCA091008" classname="Test Cases/Admin_Login/TCA091008" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:23:10 - [TEST_CASE][PASSED] - Test Cases/Admin_Login/TCA091008: Test Cases/Admin_Login/TCA091008
+
+2018-09-07 13:23:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 13:23:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 13:23:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:23:15 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:23:15 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:23:15 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:23:15 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:23:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:23:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:23:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_SuperAdmin' are matched.
+
+2018-09-07 13:23:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_SuperAdmin' are matched.
+
+2018-09-07 13:23:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00imgbtnLogout' is clicked on
+
+2018-09-07 13:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00imgbtnLogout' is clicked on
+
+2018-09-07 13:23:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/td_Admin Login' are matched.
+
+2018-09-07 13:23:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/td_Admin Login' are matched.
+
+2018-09-07 13:23:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-07 13:23:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-07 13:22:18 - [TEST_SUITE][PASSED] - VAA0040-Admin_login: Test Cases/Admin_Login/TCA091008]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
