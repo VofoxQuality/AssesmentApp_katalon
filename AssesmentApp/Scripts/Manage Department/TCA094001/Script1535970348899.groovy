@@ -19,15 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx')
-
-WebUI.setText(findTestObject('Page_Admin Login/input_ctl00ContentPlaceHolder1'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('Page_Admin Login/input_ctl00ContentPlaceHolder1_2'), 'SFTQUhjBfIY=')
-
-WebUI.click(findTestObject('Page_Admin Login/input_ctl00ContentPlaceHolderBTN'))
+WebUI.callTestCase(findTestCase('Admin_Login/Admin_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_/span_SuperAdmin'), 'SuperAdmin')
 
