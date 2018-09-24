@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VAA0042-Manage Department,Firefox 59.0,,2018-09-18 14:52:10,2018-09-18 14:53:06,55.639s,FAILED
+,,,,,,
+Test Cases/Manage Department/TCA094001,Firefox 59.0,,2018-09-18 14:52:11,2018-09-18 14:53:05,54.382s,FAILED
+openBrowser,Firefox 59.0,,2018-09-18 14:52:11,2018-09-18 14:52:22,11.302s,PASSED
+navigateToUrl,Firefox 59.0,,2018-09-18 14:52:22,2018-09-18 14:53:05,42.572s,PASSED
+setText,Firefox 59.0,,2018-09-18 14:53:05,2018-09-18 14:53:05,0.184s,FAILED
+,,,,,,
+Test Cases/Manage Department/TCA094002,Firefox 59.0,,2018-09-18 14:53:05,2018-09-18 14:53:06,0.308s,FAILED
+click,Firefox 59.0,,2018-09-18 14:53:06,2018-09-18 14:53:06,0.057s,FAILED
+,,,,,,
+Test Cases/Manage Department/TCA094003,Firefox 59.0,,2018-09-18 14:53:06,2018-09-18 14:53:06,0.497s,FAILED
+callTestCase,Firefox 59.0,,2018-09-18 14:53:06,2018-09-18 14:53:06,0.169s,FAILED
