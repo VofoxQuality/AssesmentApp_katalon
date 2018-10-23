@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/VAA0042-Manage Department')
+suiteProperties.put('id', 'Test Suites/VAA0043-Manage Employees Department')
 
-suiteProperties.put('name', 'VAA0042-Manage Department')
+suiteProperties.put('name', 'VAA0043-Manage Employees Department')
 
 suiteProperties.put('description', '')
  
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180918_145209\\execution.properties")
+RunConfiguration.setExecutionSettingFile("E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0043-Manage Employees Department\\20180924_165843\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/VAA0042-Manage Department', suiteProperties, [new TestCaseBinding('Test Cases/Manage Department/TCA094001', 'Test Cases/Manage Department/TCA094001',  null), new TestCaseBinding('Test Cases/Manage Department/TCA094002', 'Test Cases/Manage Department/TCA094002',  null), new TestCaseBinding('Test Cases/Manage Department/TCA094003', 'Test Cases/Manage Department/TCA094003',  null)])
+TestCaseMain.startTestSuite('Test Suites/VAA0043-Manage Employees Department', suiteProperties, [new TestCaseBinding('Test Cases/Manage Employees Department/TCA095001', 'Test Cases/Manage Employees Department/TCA095001',  null), new TestCaseBinding('Test Cases/Manage Employees Department/TCA095002', 'Test Cases/Manage Employees Department/TCA095002',  null), new TestCaseBinding('Test Cases/Manage Employees Department/TCA095003', 'Test Cases/Manage Employees Department/TCA095003',  null)])

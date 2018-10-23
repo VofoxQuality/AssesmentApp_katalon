@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
-
 WebUI.click(findTestObject('Page_/a_ Manage Employees Department'))
 
 WebUI.selectOptionByValue(findTestObject('Page_/select_AllEmployeeNHIP Number'), 'Employee', true)
@@ -51,13 +49,13 @@ WebUI.verifyElementText(findTestObject('Page_/th_Employer'), 'Employer')
 
 WebUI.selectOptionByValue(findTestObject('Page_/select_AllEmployeeNHIP Number'), 'Nhip', true)
 
-WebUI.setText(findTestObject('Page_/input_ctl00adminContentPlaceHo'), 'dfg45')
+WebUI.setText(findTestObject('Page_/input_Description_Textbox'), 'dfg45')
 
 WebUI.click(findTestObject('Page_/input_ctl00adminContentPlaceHo_search'))
 
 WebUI.click(findTestObject('Page_/td_Sorry No Employees  Found..'))
 
-WebUI.setText(findTestObject('Page_/input_ctl00adminContentPlaceHo'), 'NHIP-02014-00')
+WebUI.setText(findTestObject('Page_/input_Description_Textbox'), 'NHIP-02014-00')
 
 WebUI.click(findTestObject('Page_/input_ctl00adminContentPlaceHo_search'))
 
@@ -65,13 +63,13 @@ WebUI.verifyElementText(findTestObject('Page_/td_NHIP-02014-00'), 'NHIP-02014-00
 
 WebUI.selectOptionByValue(findTestObject('Page_/select_AllEmployeeNHIP Number'), 'Employee', true)
 
-WebUI.setText(findTestObject('Page_/input_ctl00adminContentPlaceHo'), 'La-Cher')
+WebUI.setText(findTestObject('Page_/input_Description_Textbox'), 'La-Cher')
 
 WebUI.click(findTestObject('Page_/input_ctl00adminContentPlaceHo_search'))
 
 WebUI.verifyElementText(findTestObject('Page_/td_La-Cher'), 'La-Cher')
 
-WebUI.setText(findTestObject('Page_/input_ctl00adminContentPlaceHo'), 'Glinton')
+WebUI.setText(findTestObject('Page_/input_Description_Textbox'), 'Glinton')
 
 WebUI.click(findTestObject('Page_/input_ctl00adminContentPlaceHo_search'))
 

@@ -15,7 +15,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tbody[@id='departmentsList']//td[contains(text(),'Department')]</value>
+         <value>//span[@id='ctl00_adminContentPlaceHolder_Label2']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

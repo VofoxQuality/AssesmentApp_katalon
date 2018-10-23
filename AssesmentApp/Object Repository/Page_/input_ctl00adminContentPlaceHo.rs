@@ -4,7 +4,17 @@
    <name>input_ctl00adminContentPlaceHo</name>
    <tag></tag>
    <elementGuidId>7c24487f-46c0-4d26-8a30-2de1aca730cd</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'ctl00$adminContentPlaceHolder$TxtKeyword' and @type = 'text' and @id = 'ctl00_adminContentPlaceHolder_TxtKeyword']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='ctl00_adminContentPlaceHolder_ButtonCancel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

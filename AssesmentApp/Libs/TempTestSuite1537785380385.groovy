@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/VAA0040-Admin_login')
+suiteProperties.put('id', 'Test Suites/VAA0042-Manage Department')
 
-suiteProperties.put('name', 'VAA0040-Admin_login')
+suiteProperties.put('name', 'VAA0042-Manage Department')
 
 suiteProperties.put('description', '')
  
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0040-Admin_login\\20180918_144641\\execution.properties")
+RunConfiguration.setExecutionSettingFile("E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180924_160620\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/VAA0040-Admin_login', suiteProperties, [new TestCaseBinding('Test Cases/Admin_Login/TCA091001', 'Test Cases/Admin_Login/TCA091001',  null), new TestCaseBinding('Test Cases/Admin_Login/TCA091002', 'Test Cases/Admin_Login/TCA091002',  null), new TestCaseBinding('Test Cases/Admin_Login/TCA091003', 'Test Cases/Admin_Login/TCA091003',  null), new TestCaseBinding('Test Cases/Admin_Login/TCA091004', 'Test Cases/Admin_Login/TCA091004',  null), new TestCaseBinding('Test Cases/Admin_Login/TCA091005', 'Test Cases/Admin_Login/TCA091005',  null), new TestCaseBinding('Test Cases/Admin_Login/TCA091006', 'Test Cases/Admin_Login/TCA091006',  null), new TestCaseBinding('Test Cases/Admin_Login/TCA091007', 'Test Cases/Admin_Login/TCA091007',  null), new TestCaseBinding('Test Cases/Admin_Login/TCA091008', 'Test Cases/Admin_Login/TCA091008',  null)])
+TestCaseMain.startTestSuite('Test Suites/VAA0042-Manage Department', suiteProperties, [new TestCaseBinding('Test Cases/Manage Department/TCA094001', 'Test Cases/Manage Department/TCA094001',  null), new TestCaseBinding('Test Cases/Manage Department/TCA094002', 'Test Cases/Manage Department/TCA094002',  null), new TestCaseBinding('Test Cases/Manage Department/TCA094003', 'Test Cases/Manage Department/TCA094003',  null)])

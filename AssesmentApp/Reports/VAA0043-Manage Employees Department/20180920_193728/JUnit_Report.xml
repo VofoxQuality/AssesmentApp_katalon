@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VAA0043-Manage Employees Department" time="44" tests="2" failures="1" errors="0">
+   <testsuite name="VAA0043-Manage Employees Department" tests="2" failures="1" errors="0" time="44" timestamp="2018-09-20 19:37:30" hostname="sebastian - Vofox-Sebastian.vofox.com" id="Test Suites/VAA0043-Manage Employees Department">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Git Assessment App Katalon\\AssesmentApp\\Reports\\VAA0043-Manage Employees Department\\20180920_193728"/>
+         <property name="logFiles" value="E:\\Git Assessment App Katalon\\AssesmentApp\\Reports\\VAA0043-Manage Employees Department\\20180920_193728\\execution0.log"/>
+         <property name="attachments" value="E:\\Git Assessment App Katalon\\AssesmentApp\\Reports\\VAA0043-Manage Employees Department\\20180920_193728\\1537452493733.png"/>
+         <property name="hostName" value="sebastian - Vofox-Sebastian.vofox.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.10.130"/>
+         <property name="sessionId" value="99a39029ad4cbe2a44f7302b4f69f068"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Manage Employees Department/TCA095001" classname="Test Cases/Manage Employees Department/TCA095001" status="PASSED">
+         <system-out><![CDATA[2018-09-20 19:37:30 - [TEST_CASE][PASSED] - Test Cases/Manage Employees Department/TCA095001: Test Cases/Manage Employees Department/TCA095001
+
+2018-09-20 19:37:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-20 19:37:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-20 19:37:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-20 19:37:36 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-20 19:37:36 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-20 19:37:36 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-20 19:37:36 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-20 19:37:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-20 19:37:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-20 19:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Employees Department/TCA095002" classname="Test Cases/Manage Employees Department/TCA095002" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dfg45' of object 'Object Repository/Page_/input_ctl00adminContentPlaceHo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00adminContentPlaceHo' located by 'By.xpath: //input[@id='ctl00_adminContentPlaceHolder_ButtonCancel']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536055267280.run(Script1536055267280.groovy:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537452448342.run(TempTestSuite1537452448342.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-20 19:37:37 - [TEST_CASE][FAILED] - Test Cases/Manage Employees Department/TCA095002: Test Cases/Manage Employees Department/TCA095002 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dfg45' of object 'Object Repository/Page_/input_ctl00adminContentPlaceHo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00adminContentPlaceHo' located by 'By.xpath: //input[@id='ctl00_adminContentPlaceHolder_ButtonCancel']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536055267280.run(Script1536055267280.groovy:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537452448342.run(TempTestSuite1537452448342.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-20 19:37:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_ Manage Employees Department' is clicked on
+
+2018-09-20 19:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_ Manage Employees Department' is clicked on
+
+2018-09-20 19:37:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Employee' are selected in object 'Object Repository/Page_/select_AllEmployeeNHIP Number'  using regular expression
+
+2018-09-20 19:37:37 - [MESSAGE][PASSED] - All options with value 'Employee' are selected in object 'Object Repository/Page_/select_AllEmployeeNHIP Number'  using regular expression
+
+2018-09-20 19:37:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-20 19:37:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-20 19:37:40 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Enter NHIP Number/' is present on page 
+
+2018-09-20 19:37:40 - [MESSAGE][PASSED] - Text 'Enter NHIP Number/' is present on page 
+
+2018-09-20 19:37:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Nhip' are selected in object 'Object Repository/Page_/select_AllEmployeeNHIP Number'  using regular expression
+
+2018-09-20 19:37:40 - [MESSAGE][PASSED] - All options with value 'Nhip' are selected in object 'Object Repository/Page_/select_AllEmployeeNHIP Number'  using regular expression
+
+2018-09-20 19:37:40 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Enter NHIP Number/' is present on page 
+
+2018-09-20 19:37:40 - [MESSAGE][PASSED] - Text 'Enter NHIP Number/' is present on page 
+
+2018-09-20 19:37:40 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_searchbox' is clickable
+
+2018-09-20 19:37:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_searchbox' is clickable
+
+2018-09-20 19:37:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Employee' are selected in object 'Object Repository/Page_/select_AllEmployeeNHIP Number'  using regular expression
+
+2018-09-20 19:37:41 - [MESSAGE][PASSED] - All options with value 'Employee' are selected in object 'Object Repository/Page_/select_AllEmployeeNHIP Number'  using regular expression
+
+2018-09-20 19:37:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00adminContentPlaceHo_search' is clicked on
+
+2018-09-20 19:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00adminContentPlaceHo_search' is clicked on
+
+2018-09-20 19:37:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/td_Sorry No Employees  Found..' are matched.
+
+2018-09-20 19:37:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/td_Sorry No Employees  Found..' are matched.
+
+2018-09-20 19:37:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/th_First Name' are matched.
+
+2018-09-20 19:37:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/th_First Name' are matched.
+
+2018-09-20 19:37:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/th_Last Name' are matched.
+
+2018-09-20 19:37:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/th_Last Name' are matched.
+
+2018-09-20 19:37:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/th_NHIP Number' are matched.
+
+2018-09-20 19:37:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/th_NHIP Number' are matched.
+
+2018-09-20 19:37:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/th_Employer' are matched.
+
+2018-09-20 19:37:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/th_Employer' are matched.
+
+2018-09-20 19:37:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Nhip' are selected in object 'Object Repository/Page_/select_AllEmployeeNHIP Number'  using regular expression
+
+2018-09-20 19:37:41 - [MESSAGE][PASSED] - All options with value 'Nhip' are selected in object 'Object Repository/Page_/select_AllEmployeeNHIP Number'  using regular expression
+
+2018-09-20 19:37:41 - [TEST_STEP][FAILED] - setText: Unable to set text 'dfg45' of object 'Object Repository/Page_/input_ctl00adminContentPlaceHo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00adminContentPlaceHo' located by 'By.xpath: //input[@id='ctl00_adminContentPlaceHolder_ButtonCancel']' not found)
+
+2018-09-20 19:38:14 - [MESSAGE][FAILED] - Unable to set text 'dfg45' of object 'Object Repository/Page_/input_ctl00adminContentPlaceHo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00adminContentPlaceHo' located by 'By.xpath: //input[@id='ctl00_adminContentPlaceHolder_ButtonCancel']' not found)
+[[ATTACHMENT|E:\\Git Assessment App Katalon\\AssesmentApp\\Reports\\VAA0043-Manage Employees Department\\20180920_193728\\1537452493733.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-20 19:37:37 - [TEST_CASE][FAILED] - Test Cases/Manage Employees Department/TCA095002: Test Cases/Manage Employees Department/TCA095002 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dfg45' of object 'Object Repository/Page_/input_ctl00adminContentPlaceHo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00adminContentPlaceHo' located by 'By.xpath: //input[@id='ctl00_adminContentPlaceHolder_ButtonCancel']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536055267280.run(Script1536055267280.groovy:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537452448342.run(TempTestSuite1537452448342.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Employees Department/TCA095003" classname="Test Cases/Manage Employees Department/TCA095003" status="PASSED">
+         <system-out><![CDATA[2018-09-20 19:38:14 - [TEST_CASE][PASSED] - Test Cases/Manage Employees Department/TCA095003: Test Cases/Manage Employees Department/TCA095003
+
+2018-09-20 19:38:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00imgbtnLogout' is clicked on
+
+2018-09-20 19:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00imgbtnLogout' is clicked on
+
+2018-09-20 19:38:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/td_Admin Login' are matched.
+
+2018-09-20 19:38:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/td_Admin Login' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-20 19:37:30 - [TEST_SUITE][FAILED] - VAA0043-Manage Employees Department: Test Cases/Manage Employees Department/TCA095002 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dfg45' of object 'Object Repository/Page_/input_ctl00adminContentPlaceHo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00adminContentPlaceHo' located by 'By.xpath: //input[@id='ctl00_adminContentPlaceHolder_ButtonCancel']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536055267280.run(Script1536055267280.groovy:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537452448342.run(TempTestSuite1537452448342.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-20 19:37:30 - [TEST_SUITE][FAILED] - VAA0043-Manage Employees Department: Test Cases/Manage Employees Department/TCA095002 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'dfg45' of object 'Object Repository/Page_/input_ctl00adminContentPlaceHo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/input_ctl00adminContentPlaceHo' located by 'By.xpath: //input[@id='ctl00_adminContentPlaceHolder_ButtonCancel']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536055267280.run(Script1536055267280.groovy:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537452448342.run(TempTestSuite1537452448342.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

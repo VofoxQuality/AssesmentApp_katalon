@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VAA0042-Manage Department,Chrome 68.0.3440.106,,2018-09-19 19:26:09,2018-09-19 19:36:29,10m - 20.444s,FAILED
+,,,,,,
+Test Cases/Manage Department/TCA094001,Chrome 68.0.3440.106,,2018-09-19 19:26:09,2018-09-19 19:31:14,5m - 4.566s,FAILED
+openBrowser,Chrome 68.0.3440.106,,2018-09-19 19:26:10,2018-09-19 19:26:13,3.376s,PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-09-19 19:26:13,2018-09-19 19:31:14,5m - 0.715s,FAILED
+,,,,,,
+Test Cases/Manage Department/TCA094002,Chrome 68.0.3440.106,,2018-09-19 19:31:14,2018-09-19 19:31:25,11.002s,FAILED
+click,Chrome 68.0.3440.106,,2018-09-19 19:31:14,2018-09-19 19:31:25,10.745s,FAILED
+,,,,,,
+Test Cases/Manage Department/TCA094003,Chrome 68.0.3440.106,,2018-09-19 19:31:25,2018-09-19 19:36:28,5m - 3.575s,FAILED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 19:31:25,2018-09-19 19:36:28,5m - 3.261s,FAILED
