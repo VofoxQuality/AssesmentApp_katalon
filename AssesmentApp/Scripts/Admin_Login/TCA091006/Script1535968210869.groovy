@@ -23,7 +23,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx')
 
-WebUI.setText(findTestObject('Page_Admin Login/input_ctl00ContentPlaceHolder1_1'), '')
+WebUI.setText(findTestObject('Page_Admin Login/input_ctl00ContentPlaceHolder1'), '')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'), '')
 

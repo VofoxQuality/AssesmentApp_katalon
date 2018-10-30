@@ -37,9 +37,9 @@ WebUI.click(findTestObject('Page_/input_btnAddNewDepartment'))
 
 WebUI.verifyElementText(findTestObject('Page_/span_Add New Department'), 'Add New Department')
 
-WebUI.verifyElementText(findTestObject('Page_/td_Department'), 'Department')
+//WebUI.verifyElementText(findTestObject('Page_/td_Department'), 'Department')
 
-WebUI.verifyElementText(findTestObject('Page_/th_Description'), 'Description')
+//WebUI.verifyElementText(findTestObject('Page_/th_Description'), 'Description')
 
 WebUI.click(findTestObject('Page_/input_ButtonSubmit'))
 
@@ -57,11 +57,11 @@ WebUI.click(findTestObject('Page_/input_ButtonSubmit'))
 WebUI.verifyElementText(findTestObject('Page_/span_Insertion Failed.Departme'), 'Insertion Failed.Department Already Exist')
 
 WebUI.click(findTestObject('Page_/span_Close'))
-WebUI.delay(1)
-WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_Manage Department'), 'Manage Department')
-WebUI.click(findTestObject('Page_/input_btnAddNewDepartment'))
-WebUI.verifyElementText(findTestObject('Page_/span_Add New Department'), 'Add New Department')
-WebUI.click(findTestObject('Page_/input_ctl00adminContentPlaceHo'))
+//WebUI.delay(1)
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_Manage Department'), 'Manage Department')
+//WebUI.click(findTestObject('Page_/input_btnAddNewDepartment'))
+//WebUI.verifyElementText(findTestObject('Page_/span_Add New Department'), 'Add New Department')
+//WebUI.click(findTestObject('Page_/input_ctl00adminContentPlaceHo'))
 
 
 

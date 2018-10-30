@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VAA0042-Manage Department" time="18" tests="3" failures="0" errors="0">
+   <testsuite name="VAA0042-Manage Department" tests="3" failures="0" errors="0" time="18" timestamp="2018-09-07 12:51:28" hostname="MANOJ-D$ - Manoj-D.vofox.com" id="Test Suites/VAA0042-Manage Department">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180907_125126"/>
+         <property name="logFiles" value="E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0042-Manage Department\\20180907_125126\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MANOJ-D$ - Manoj-D.vofox.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.10.121"/>
+         <property name="sessionId" value="aaedfcd986b30047557afee6d300de09"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Manage Department/TCA094001" classname="Test Cases/Manage Department/TCA094001" status="PASSED">
+         <system-out><![CDATA[2018-09-07 12:51:28 - [TEST_CASE][PASSED] - Test Cases/Manage Department/TCA094001: Test Cases/Manage Department/TCA094001
+
+2018-09-07 12:51:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 12:51:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 12:51:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 12:51:33 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 12:51:33 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 12:51:33 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 12:51:33 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 12:51:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 12:51:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 12:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 12:51:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_SuperAdmin' are matched.
+
+2018-09-07 12:51:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_SuperAdmin' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Department/TCA094002" classname="Test Cases/Manage Department/TCA094002" status="PASSED">
+         <system-out><![CDATA[2018-09-07 12:51:34 - [TEST_CASE][PASSED] - Test Cases/Manage Department/TCA094002: Test Cases/Manage Department/TCA094002
+
+2018-09-07 12:51:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_ Manage Department' is clicked on
+
+2018-09-07 12:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_ Manage Department' is clicked on
+
+2018-09-07 12:51:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/td_Manage Department' are matched.
+
+2018-09-07 12:51:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/td_Manage Department' are matched.
+
+2018-09-07 12:51:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/th_Department' are matched.
+
+2018-09-07 12:51:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/th_Department' are matched.
+
+2018-09-07 12:51:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/th_Description' are matched.
+
+2018-09-07 12:51:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/th_Description' are matched.
+
+2018-09-07 12:51:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/a_Edit' are matched.
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/a_Edit' are matched.
+
+2018-09-07 12:51:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/a_Delete' are matched.
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/a_Delete' are matched.
+
+2018-09-07 12:51:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_btnAddNewDepartment' is clicked on
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_btnAddNewDepartment' is clicked on
+
+2018-09-07 12:51:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_Add New Department' are matched.
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_Add New Department' are matched.
+
+2018-09-07 12:51:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ButtonSubmit' is clicked on
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ButtonSubmit' is clicked on
+
+2018-09-07 12:51:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_This Field is Required_2' are matched.
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_This Field is Required_2' are matched.
+
+2018-09-07 12:51:35 - [TEST_STEP][PASSED] - setText: Text 'QA Vofox' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_dept'
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Text 'QA Vofox' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_dept'
+
+2018-09-07 12:51:35 - [TEST_STEP][PASSED] - setText: Text 'Duplication test' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_desc'
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Text 'Duplication test' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_desc'
+
+2018-09-07 12:51:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ButtonSubmit' is clicked on
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ButtonSubmit' is clicked on
+
+2018-09-07 12:51:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_Insertion Failed.Departme' are matched.
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_Insertion Failed.Departme' are matched.
+
+2018-09-07 12:51:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Close' is clicked on
+
+2018-09-07 12:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Department/TCA094003" classname="Test Cases/Manage Department/TCA094003" status="PASSED">
+         <system-out><![CDATA[2018-09-07 12:51:35 - [TEST_CASE][PASSED] - Test Cases/Manage Department/TCA094003: Test Cases/Manage Department/TCA094003
+
+2018-09-07 12:51:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Manage Department/TCA094001' successfully
+
+2018-09-07 12:51:36 - [TEST_CASE][PASSED] - Test Cases/Manage Department/TCA094001: Test Cases/Manage Department/TCA094001
+
+2018-09-07 12:51:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 12:51:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-07 12:51:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 12:51:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 12:51:39 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 12:51:39 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 12:51:39 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 12:51:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 12:51:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 12:51:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 12:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 12:51:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_SuperAdmin' are matched.
+
+2018-09-07 12:51:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_SuperAdmin' are matched.
+
+2018-09-07 12:51:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Manage Department/TCA094001' successfully
+
+2018-09-07 12:51:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_ Manage Department' is clicked on
+
+2018-09-07 12:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_ Manage Department' is clicked on
+
+2018-09-07 12:51:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_Edit' is clicked on
+
+2018-09-07 12:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_Edit' is clicked on
+
+2018-09-07 12:51:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_Edit Department' are matched.
+
+2018-09-07 12:51:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_Edit Department' are matched.
+
+2018-09-07 12:51:40 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_dept'
+
+2018-09-07 12:51:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_dept'
+
+2018-09-07 12:51:40 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_desc'
+
+2018-09-07 12:51:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_desc'
+
+2018-09-07 12:51:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ButtonSubmit' is clicked on
+
+2018-09-07 12:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ButtonSubmit' is clicked on
+
+2018-09-07 12:51:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_This Field is Required_2' are matched.
+
+2018-09-07 12:51:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_This Field is Required_2' are matched.
+
+2018-09-07 12:51:40 - [TEST_STEP][PASSED] - setText: Text 'QA Vofox' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_dept'
+
+2018-09-07 12:51:40 - [MESSAGE][PASSED] - Text 'QA Vofox' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_dept'
+
+2018-09-07 12:51:40 - [TEST_STEP][PASSED] - setText: Text 'Duplication test' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_desc'
+
+2018-09-07 12:51:41 - [MESSAGE][PASSED] - Text 'Duplication test' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_desc'
+
+2018-09-07 12:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ButtonSubmit' is clicked on
+
+2018-09-07 12:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ButtonSubmit' is clicked on
+
+2018-09-07 12:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Close' is clicked on
+
+2018-09-07 12:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Close' is clicked on
+
+2018-09-07 12:51:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/td_Manage Department' are matched.
+
+2018-09-07 12:51:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/td_Manage Department' are matched.
+
+2018-09-07 12:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_Edit' is clicked on
+
+2018-09-07 12:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_Edit' is clicked on
+
+2018-09-07 12:51:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_Edit Department' are matched.
+
+2018-09-07 12:51:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_Edit Department' are matched.
+
+2018-09-07 12:51:41 - [TEST_STEP][PASSED] - setText: Text 'QA Vofox1' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_dept'
+
+2018-09-07 12:51:41 - [MESSAGE][PASSED] - Text 'QA Vofox1' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_dept'
+
+2018-09-07 12:51:41 - [TEST_STEP][PASSED] - setText: Text 'Edit Department' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_desc'
+
+2018-09-07 12:51:41 - [MESSAGE][PASSED] - Text 'Edit Department' is set on object 'Object Repository/Page_/input_ctl00adminContentPlaceHo_desc'
+
+2018-09-07 12:51:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-07 12:51:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-07 12:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ButtonSubmit' is clicked on
+
+2018-09-07 12:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ButtonSubmit' is clicked on
+
+2018-09-07 12:51:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_Successfully Updated' are matched.
+
+2018-09-07 12:51:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_Successfully Updated' are matched.
+
+2018-09-07 12:51:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Close' is clicked on
+
+2018-09-07 12:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Close' is clicked on
+
+2018-09-07 12:51:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_Delete' is clicked on
+
+2018-09-07 12:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_Delete' is clicked on
+
+2018-09-07 12:51:45 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-09-07 12:51:45 - [MESSAGE][PASSED] - Alert accepted
+
+2018-09-07 12:51:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/validation_page' are matched.
+
+2018-09-07 12:51:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/validation_page' are matched.
+
+2018-09-07 12:51:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-07 12:51:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-07 12:51:28 - [TEST_SUITE][PASSED] - VAA0042-Manage Department: Test Cases/Manage Department/TCA094003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

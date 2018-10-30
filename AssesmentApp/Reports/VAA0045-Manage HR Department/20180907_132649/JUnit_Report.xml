@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VAA0045-Manage HR Department" time="8" tests="3" failures="0" errors="0">
+   <testsuite name="VAA0045-Manage HR Department" tests="3" failures="0" errors="0" time="8" timestamp="2018-09-07 13:26:51" hostname="MANOJ-D$ - Manoj-D.vofox.com" id="Test Suites/VAA0045-Manage HR Department">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0045-Manage HR Department\\20180907_132649"/>
+         <property name="logFiles" value="E:\\VofoxQA\\AssesmentApp_Katalon\\AssesmentApp\\Reports\\VAA0045-Manage HR Department\\20180907_132649\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MANOJ-D$ - Manoj-D.vofox.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.10.121"/>
+         <property name="sessionId" value="f1589d9337d145cd959a20edc80d2a17"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Manage HR Department/TCA097001" classname="Test Cases/Manage HR Department/TCA097001" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:26:52 - [TEST_CASE][PASSED] - Test Cases/Manage HR Department/TCA097001: Test Cases/Manage HR Department/TCA097001
+
+2018-09-07 13:26:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 13:26:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 13:26:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:26:56 - [MESSAGE][PASSED] - Navigate to 'http://192.168.10.150/eserviceCRProvider/AdminLogin.aspx' successfully
+
+2018-09-07 13:26:56 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:26:56 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1'
+
+2018-09-07 13:26:56 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:26:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolder1_2'
+
+2018-09-07 13:26:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on
+
+2018-09-07 13:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin Login/input_ctl00ContentPlaceHolderBTN' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage HR Department/TCA097002" classname="Test Cases/Manage HR Department/TCA097002" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:26:57 - [TEST_CASE][PASSED] - Test Cases/Manage HR Department/TCA097002: Test Cases/Manage HR Department/TCA097002
+
+2018-09-07 13:26:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_ Manage HR Department' is clicked on
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_ Manage HR Department' is clicked on
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/td_Manage HR Department' are matched.
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/td_Manage HR Department' are matched.
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_HR Name  HR Number' are matched.
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_HR Name  HR Number' are matched.
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_/HR_Dep_searchtext' is clickable
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/HR_Dep_searchtext' is clickable
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - setText: Text '@#$#@$' is set on object 'Object Repository/Page_/HR_Dep_searchtext'
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Text '@#$#@$' is set on object 'Object Repository/Page_/HR_Dep_searchtext'
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/HR_Dep _search' is clicked on
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/HR_Dep _search' is clicked on
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_Your search string contai' are matched.
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_Your search string contai' are matched.
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - setText: Text 'abcd' is set on object 'Object Repository/Page_/HR_Dep_searchtext'
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Text 'abcd' is set on object 'Object Repository/Page_/HR_Dep_searchtext'
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/HR_Dep _search' is clicked on
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/HR_Dep _search' is clicked on
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_HR Name' is clicked on
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_HR Name' is clicked on
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_HR Number' is clicked on
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_HR Number' is clicked on
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/th_Email' is clicked on
+
+2018-09-07 13:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/th_Email' is clicked on
+
+2018-09-07 13:26:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/td_Sorry No HR Users Found...' is clicked on
+
+2018-09-07 13:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/td_Sorry No HR Users Found...' is clicked on
+
+2018-09-07 13:26:59 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_/HR_Dep_searchtext'
+
+2018-09-07 13:26:59 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_/HR_Dep_searchtext'
+
+2018-09-07 13:26:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/HR_Dep _search' is clicked on
+
+2018-09-07 13:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/HR_Dep _search' is clicked on
+
+2018-09-07 13:26:59 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_/span_demoHR test)): Text of object 'Object Repository/Page_/span_demoHR test' is: 'demoHR test'
+
+2018-09-07 13:26:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_/span_demoHR test' is: 'demoHR test'
+
+2018-09-07 13:26:59 - [TEST_STEP][PASSED] - Statement - If (!(text.contains("test"))): null
+
+2018-09-07 13:26:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/HR_Dep_pop_btn' is clicked on
+
+2018-09-07 13:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/HR_Dep_pop_btn' is clicked on
+
+2018-09-07 13:26:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_/span_Pop_title' are matched.
+
+2018-09-07 13:26:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/span_Pop_title' are matched.
+
+2018-09-07 13:26:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/span_Close_after depts assigned' is clicked on
+
+2018-09-07 13:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/span_Close_after depts assigned' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage HR Department/TCA097003" classname="Test Cases/Manage HR Department/TCA097003" status="PASSED">
+         <system-out><![CDATA[2018-09-07 13:26:59 - [TEST_CASE][PASSED] - Test Cases/Manage HR Department/TCA097003: Test Cases/Manage HR Department/TCA097003
+
+2018-09-07 13:26:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_ctl00imgbtnLogout' is clicked on
+
+2018-09-07 13:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_ctl00imgbtnLogout' is clicked on
+
+2018-09-07 13:26:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Admin Login/td_Admin Login' are matched.
+
+2018-09-07 13:27:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Admin Login/td_Admin Login' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-07 13:26:51 - [TEST_SUITE][PASSED] - VAA0045-Manage HR Department: Test Cases/Manage HR Department/TCA097003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
